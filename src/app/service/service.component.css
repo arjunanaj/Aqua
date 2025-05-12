@@ -1,0 +1,211 @@
+.breedcumbs{
+    width:100%;
+    min-height: 500px;
+    background:linear-gradient(to right,rgba(1, 31, 75, 0.411),rgba(0, 25, 75, 0.616)),url("../../assets/img/pexels-earano-1298684.jpg");
+ background-position: center;
+ background-size: cover;
+display: flex;
+justify-content: center;
+align-items: center;
+
+}
+
+.breadcrumb-heading {
+
+    font-weight: 500;
+
+  color: rgb(0, 255, 251);
+ 
+}
+.breadcrumb-items{
+  
+    font-weight: 500;
+    text-decoration: none;
+  
+}
+
+.bold{
+
+    font-weight: 500;
+   
+}
+
+.card_mineral{
+    background: transparent;
+
+}
+.card-heading{
+    color:rgb(2, 16, 96);
+}
+
+.icon{
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    background-color: rgb(18, 109, 189);
+    font-size: 40px;
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    color:white;
+}
+
+.section_1{
+    width:100%;
+    min-height: 100vh;
+    background: linear-gradient(to top,rgba(109, 223, 255, 0.498),rgba(149, 255, 250, 0.265));
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    
+    
+
+}
+
+.section_2{
+    width:100%;
+    min-height: 750px;
+    background: linear-gradient(to top,rgba(255, 255, 255, 0.498),rgba(255, 255, 255, 0.635));
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    
+    
+
+}
+
+.card-background {
+    background-size: cover;
+    background-position: center;
+    height: 380px;
+    color: white;
+    position: relative;
+    border-radius: 10px;
+  }
+  .card-overlay {
+    position: absolute;
+    background-color: rgb(255, 255, 255); /* Add a semi-transparent overlay */
+    width: 100%;
+    height: 42%;
+    display: flex;
+    justify-content: center;
+    align-items: center ;
+    text-align: center;
+    top: 221px;
+ 
+    color: #063eac;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+  }
+.card_2{
+    background: transparent !important;
+    border: none;
+} 
+
+
+
+.clientSection{
+    width: 100%;
+    min-height:450px ;
+    background:linear-gradient(to top,rgba(0, 0, 0, 0.295),rgba(0, 0, 0, 0.226)),url("../../assets/img/171.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.clienticon{
+    width: 110px;
+    height: 110px;
+    border-radius: 50%;
+    background-color: rgb(255, 255, 255);
+    font-size: 50px;
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    color:rgb(17, 1, 87);
+    font-weight: bolder;
+  
+}
+
+.section_3{
+    width:100%;
+    min-height: 700px;
+    background: linear-gradient(to top,rgba(255, 255, 255, 0.653),rgba(181, 255, 253, 0.635));
+    background-repeat: no-repeat;
+
+    
+
+}
+.reviewCard{
+    background: transparent;
+    border: none;
+}
+.carousel-indicators {
+    position: absolute;
+    right: 0;
+    bottom: -50px !important;
+ 
+}
+
+@media (max-width: 576px) {
+    .carousel-indicators {
+        position: absolute;
+      bottom: -10px !important; /* Move slightly closer to the carousel */
+      right: 0;
+      
+    }
+  }
+   .carousel-indicators button {
+    width: 12px;
+    height: 12px;
+    border-radius: 50%;
+    background-color: #000000; /* Dot color */
+    border: none;
+  }
+  .carousel-indicators button.active {
+    background-color: #0800ff; /* Active dot color */
+  }
+  .carousel-control-prev-icon {
+    background-color: #7a75d9;
+   position: absolute;
+   left: -70px;
+   padding-left: 20px;
+   
+   border-radius: 30%;
+   
+  }
+
+  .carousel-control-next-icon {
+    background-color: #7a75d9;
+    position: absolute;
+    right: -70px;
+    padding-left: 20px;
+    
+    border-radius: 30%;
+    
+   }
+   
+  
+.reviewIcon{
+    width: 110px; /* Adjust size as needed */
+    height: 110px; /* Adjust size as needed */
+    background-color: #ffffff; /* Default background color */
+    border-radius: 50%; /* Make it circular */
+    display: flex;
+    justify-content: center;
+    font-size: 24px; /* Adjust text size */
+    font-weight: bold;
+    color: #fff; /* Text color */
+    overflow: hidden;
+    border: 4px solid #0d0168; /* Optional border */
+
+}
+.reviewIcon>img{
+    
+    object-fit:cover;
+  
+}
+
+
+
+

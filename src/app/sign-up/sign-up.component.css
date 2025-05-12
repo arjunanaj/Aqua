@@ -1,0 +1,45 @@
+
+.container-fluid{
+    width:100%;
+    min-height: 100vh;
+    background: linear-gradient(to right,rgba(1, 61, 83, 0.537),rgba(0, 0, 0, 0.783)),url("../../assets/img/pexels-quang-nguyen-vinh-222549-2649403.jpg");
+    background-position: center;
+    background-size: cover;
+ 
+
+}
+.card{
+    background: linear-gradient(to right,rgba(0, 0, 0, 0.653),rgba(4, 73, 92, 0.441));
+    
+}
+
+.form-control:is(:focus){
+    background: transparent;
+    outline: none;
+    box-shadow: none;
+}
+.form-control {
+  
+    appearance: none;
+    background-color: transparent;
+    color: white;
+    outline: none;
+    border:none;
+    border-bottom: 1px solid white;
+    border-radius:0px;
+   
+}
+.input-group-text{
+    
+    appearance: none;
+    background-color: transparent;
+    color: white;
+    outline: none;
+    border:none;
+    border-bottom: 1px solid white;
+    border-radius:0px;
+}
+
+::placeholder{
+    color: rgb(201, 201, 201);
+}

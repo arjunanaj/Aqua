@@ -1,0 +1,86 @@
+
+
+.section_1{
+    width:100%;
+   
+    background: linear-gradient(to right,rgba(164, 210, 255, 0.347),rgba(255, 223, 223, 0.142)),url("../../assets/img/ice-cubes-white-surface-with-copyspace.jpg");
+    background-position: center;
+    background-size: cover;
+    
+    
+
+}
+.section_2{
+    width:100%;
+    min-height: 100vh;
+    background: linear-gradient(to bottom,rgba(235, 255, 255, 0.459),rgba(149, 255, 250, 0.265));
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    
+    
+
+}
+.card-background {
+    background-size: cover;
+    background-position: center;
+    height: 380px;
+    color: white;
+    position: relative;
+    border-radius: 10px;
+  }
+  .card-overlay {
+    position: absolute;
+    background-color: rgb(255, 255, 255); /* Add a semi-transparent overlay */
+    width: 100%;
+    height: 42%;
+    display: flex;
+    justify-content: center;
+    align-items: center ;
+    text-align: center;
+    top: 221px;
+ 
+    color: #063eac;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+  }
+.bold{
+
+    font-weight: 500;
+   
+}
+
+.section_3{
+    width:100%;
+    min-height: 100vh;
+    background: linear-gradient(to left,rgba(166, 232, 239, 0.699),rgba(249, 255, 255, 0.377));
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    
+    
+
+}
+
+.card_mineral{
+    background: transparent;
+
+}
+.card-heading{
+    color:rgb(2, 16, 96);
+}
+
+.section_4{
+    width:100%;
+    min-height: 650px;
+    background: linear-gradient(to top,rgba(202, 242, 253, 0.498),rgba(205, 255, 253, 0.265));
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    
+    
+
+}
+
+
+

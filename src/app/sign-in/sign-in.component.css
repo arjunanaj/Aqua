@@ -1,0 +1,47 @@
+
+.container-fluid{
+    width:100%;
+    min-height: 100vh;
+    background: linear-gradient(to right,rgba(0, 0, 0, 0.445),rgba(0, 0, 0, 0.404)),url("../../assets/img/pexels-eko-purwanto-1666903-3187441.jpg");
+    background-position: center;
+    background-size: cover;
+
+}
+
+
+
+.card{
+
+   background: transparent;
+}
+
+.form-control:is(:focus){
+    background: transparent;
+    outline: none;
+    box-shadow: none;
+}
+.form-control {
+  
+    appearance: none;
+    background-color: transparent;
+    color: white;
+    outline: none;
+    border:none;
+    border-bottom: 1px solid white;
+    border-radius:0px;
+   
+}
+.input-group-text{
+    
+    appearance: none;
+    background-color: transparent;
+    color: white;
+    outline: none;
+    border:none;
+    border-bottom: 1px solid white;
+    border-radius:0px;
+}
+
+::placeholder{
+    color: rgb(201, 201, 201);
+}

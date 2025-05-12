@@ -1,0 +1,10 @@
+.section_1{
+    width:100%;
+    min-height: 360px;
+    background: linear-gradient(105deg, rgba(0, 38, 163, 0.61) 0%, rgba(5, 61, 133, 0.623) 100%),url("../../assets/img/footer-bg.png");
+   
+    background-repeat: no-repeat;
+    
+    
+
+}

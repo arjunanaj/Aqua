@@ -1,0 +1,50 @@
+.breedcumbs{
+    width:100%;
+    min-height: 500px;
+    background:linear-gradient(to right,rgba(1, 31, 75, 0.411),rgba(0, 25, 75, 0.616)),url("../../assets/img/pexels-earano-1298684.jpg");
+ background-position: center;
+ background-size: cover;
+display: flex;
+justify-content: center;
+align-items: center;
+
+}
+.breadcrumb-heading {
+
+    font-weight: 500;
+
+  color: rgb(0, 255, 251);
+ 
+}
+
+.breadcrumb-items{
+  
+    font-weight: 500;
+    text-decoration: none;
+  
+}
+
+.section_1{
+    width:100%;
+    min-height: 540px;
+    background: linear-gradient(to top,rgba(187, 240, 255, 0.498),rgba(149, 255, 250, 0.265));
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    
+    
+
+}
+.card-heading{
+    color:rgb(2, 16, 96);
+}
+.bold{
+
+    font-weight: 500;
+   
+}
+
+
+
+
+

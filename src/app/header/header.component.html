@@ -1,0 +1,51 @@
+
+<nav class="navbar navbar-expand-sm navbar_1 shadow rounded-1 fixed-top">
+    <a class="navbar-brand ">
+    <div class="row">
+        <h4 class="h1 text-primary bold"> Aqua </h4>
+    </div>
+    <div class="row">
+        <fa-icon class="text-primary ms-2 "  [icon]="water"></fa-icon>
+    </div>
+    
+       
+
+    </a>
+    <span class="px-2">
+    <button class="navbar-toggler d-lg-none" type="button" data-bs-toggle="collapse" data-bs-target="#collapsibleNavId"
+        aria-controls="collapsibleNavId" aria-expanded="false" aria-label="Toggle navigation"> <fa-icon class="text-white " style="font-size: 28px;" [icon]="menu"></fa-icon>
+        </button>
+        </span>
+    <div class="collapse navbar-collapse p-2" id="collapsibleNavId">
+        <ul class="navbar-nav ms-auto  mt-lg-0">
+            <li class="nav-item   me-5">
+                <a class="nav-link " href="#" aria-current="page">Home </a>
+            </li>
+            <li class="nav-item me-5">
+                <a class="nav-link" routerLink="/service">Service</a>
+            </li>
+            <li class="nav-item me-5">
+                <a class="nav-link" routerLink="/about">About</a>
+            </li>
+          
+            <li class="nav-item me-5">
+                <a class="nav-link" routerLink="/contact">Contact</a>
+            </li>
+            
+            
+        </ul>
+        <div class="d-flex my-2 my-lg-0 me-5">
+
+            <button class="btn signIn shadow text-dark my-2 my-sm-0 " type="submit" type="button"  routerLink="/signIn"
+         >
+                SignIn 
+            </button>
+            
+
+        </div>
+    </div>
+</nav>
+
+
+<!-- Login -->
+
